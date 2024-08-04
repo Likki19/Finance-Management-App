@@ -1,0 +1,64 @@
+.header {
+  background-color: rgb(1, 48, 80);
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 200px; /* Adjust width as needed */
+  box-sizing: border-box;
+}
+
+.header-title {
+  margin-top: 20px;
+}
+
+.header-title h1 {
+  margin: 0;
+  color : yellow;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin-bottom: 10px;
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-nav a:hover,
+.header-nav a.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.header-nav button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+
+
+.header-nav button:hover {
+  color: rgb(254, 4, 4);
+}

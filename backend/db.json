@@ -1,0 +1,222 @@
+{
+  "users": [
+    {
+      "id": "1722355171287",
+      "username": "adarsh",
+      "email": "adarsh@gmail.com",
+      "password": "$2a$10$cVroTq6FWzFAmZBse38ZLeN9LPSTxAQ7qbWxdg7hH0E5jIm53bRqK"
+    },
+    {
+      "id": "1722355435618",
+      "username": "ashrith",
+      "email": "ash@gmail.com",
+      "password": "$2a$10$T0FpepVr0pyi.MBB3t8U1.ZBEbgRDLAmuPmIfibwa4Uk391H5Pl6e"
+    },
+    {
+      "id": "1722358747950",
+      "username": "Likki",
+      "email": "likki@gmail.com",
+      "password": "$2a$10$0aTxXSiEaUU.5zfz3JC87eactreWec2E.VO38oX/iyY/5rTpQJ7Vi"
+    },
+    {
+      "id": "1722601763295",
+      "username": "Chandu",
+      "email": "chandu1969@gmail.com",
+      "password": "$2b$10$2dTVm3U0AZ/sXEG6ncFZRu0EAPMRL4WG95fJWvwMAeAw8Qhb78jKO"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1722346279898",
+      "description": "money",
+      "amount": 8000,
+      "type": "income",
+      "userId": "1722355171287",
+      "date": "2024-08-02"
+    },
+    {
+      "id": "1722358054871",
+      "description": "Monthly salaryyy",
+      "amount": 150,
+      "type": "expense",
+      "userId": "1722355435618",
+      "date": "2024-08-01"
+    },
+    {
+      "id": "1722399359336",
+      "description": "rent",
+      "amount": 310,
+      "type": "expense",
+      "userId": "1722355435618",
+      "date": "2024-08-22"
+    },
+    {
+      "id": "1722509926302",
+      "description": "wer",
+      "amount": 123,
+      "type": "income",
+      "userId": "1722358747950",
+      "date": "2024-08-02"
+    },
+    {
+      "id": "1722509998947",
+      "description": "dfn",
+      "amount": 56,
+      "type": "expense",
+      "userId": "1722358747950",
+      "date": "2024-08-02"
+    },
+    {
+      "id": "1722573782686",
+      "description": "dfg",
+      "amount": 78,
+      "type": "income",
+      "userId": "1722358747950",
+      "date": "2024-08-02"
+    },
+    {
+      "id": "1722582051942",
+      "description": "home",
+      "amount": 123456,
+      "type": "income",
+      "userId": "1722355435618",
+      "date": "2024-07-18"
+    },
+    {
+      "id": "1722589824069",
+      "description": "food",
+      "amount": 789,
+      "type": "income",
+      "userId": "1722355435618",
+      "date": "2024-08-02"
+    },
+    {
+      "id": "1722596674721",
+      "description": "room rent",
+      "amount": 8900,
+      "type": "expense",
+      "userId": "1722355435618",
+      "date": "2024-08-16"
+    },
+    {
+      "id": "1722611742467",
+      "description": "nana",
+      "amount": 8090,
+      "type": "income",
+      "userId": "1722355435618",
+      "date": "2024-08-09"
+    },
+    {
+      "id": "1722615365448",
+      "description": "LIkitha",
+      "amount": 2200,
+      "type": "income",
+      "userId": "1722355435618",
+      "date": "2024-08-24"
+    },
+    {
+      "id": "1722618128779",
+      "description": "laptop",
+      "amount": 78000,
+      "type": "expense",
+      "userId": "1722355435618",
+      "date": "2024-08-24"
+    },
+    {
+      "id": "1722662632898",
+      "description": "Mom",
+      "amount": 20000,
+      "type": "income",
+      "userId": "1722355435618",
+      "date": "2024-08-16"
+    },
+    {
+      "id": "1722662739694",
+      "description": "Adarsh",
+      "amount": 999,
+      "type": "expense",
+      "userId": "1722355435618",
+      "date": "2024-08-23"
+    },
+    {
+      "id": "1722662770647",
+      "description": "Adarsh 2",
+      "amount": 789,
+      "type": "expense",
+      "userId": "1722355435618",
+      "date": "2024-08-17"
+    },
+    {
+      "id": "1722662810646",
+      "description": "kl",
+      "amount": 78656,
+      "type": "income",
+      "userId": "1722355435618",
+      "date": "2024-08-13"
+    },
+    {
+      "id": "1722663542875",
+      "description": "home",
+      "amount": 5600,
+      "type": "income",
+      "userId": "1722355435618",
+      "date": "2024-08-03"
+    },
+    {
+      "id": "1722663568346",
+      "description": "Current Bill",
+      "amount": 3600,
+      "type": "expense",
+      "userId": "1722355435618",
+      "date": "2024-08-08"
+    },
+    {
+      "id": "1722665629571",
+      "description": "A2B",
+      "amount": 776,
+      "type": "expense",
+      "userId": "1722355435618",
+      "date": "2024-08-14"
+    },
+    {
+      "id": "1722778115497",
+      "description": "daddyu",
+      "amount": 45456,
+      "type": "income",
+      "userId": "1722358747950",
+      "date": "2024-08-04"
+    },
+    {
+      "id": "1722779040717",
+      "description": "ajio refund",
+      "amount": 333,
+      "type": "income",
+      "userId": "1722358747950",
+      "date": "2024-08-04"
+    },
+    {
+      "id": "1722779817243",
+      "description": "moveis",
+      "amount": 546,
+      "type": "expense",
+      "userId": "1722358747950",
+      "date": "2024-08-04"
+    },
+    {
+      "id": "1722779845464",
+      "description": "trips",
+      "amount": 8970,
+      "type": "expense",
+      "userId": "1722358747950",
+      "date": "2024-08-04"
+    },
+    {
+      "id": "1722779909479",
+      "description": "fee",
+      "amount": 1200,
+      "type": "expense",
+      "userId": "1722358747950",
+      "date": "2024-08-04"
+    }
+  ]
+}

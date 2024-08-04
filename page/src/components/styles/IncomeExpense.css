@@ -1,0 +1,221 @@
+.income-expense {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 5px); /* Adjust based on the height of your header */
+  width: 100%;
+  margin-left: 8%;
+  background-color: white;
+ background-size: 30%;;
+  /* Ensure positioning is relative for the absolute image */
+ background-image: url('C:\Users\I7735\Desktop\Final\Personal-Finance-management\page\src\components\styles\rupee.jpg'); /* Path to your image */
+ background-position: right ; /* Position the image on the right */
+  /* Only 20% of the image is visible */
+ background-repeat: no-repeat;
+}
+
+.income-expense-content {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  background-color:#dbdad7;
+  border: 1px solid black;
+  max-height: 70vh; /* Set a maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.income-expense-header {
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.filters select {
+  padding: 10px;
+  border: 1px solid #0a0000;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  
+}
+
+table th, table td {
+  border: 1px solid #070404;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+}
+
+table td button {
+  margin-right: 8px;
+}
+
+table th {
+  background-color: #d5d5d3;
+}
+
+.total {
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.edit-button, .delete-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.edit-button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: red;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .income-expense {
+    margin-left: 5%;
+    background-size: 50%;
+  }
+  
+  .income-expense-content {
+    max-width: 700px;
+    padding: 15px;
+  }
+
+  .filters select {
+    font-size: 14px;
+  }
+
+  table th, table td {
+    padding: 8px;
+  }
+
+  .edit-button, .delete-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .total {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .income-expense {
+    margin-left: 3%;
+    background-size: 60%;
+  }
+  
+  .income-expense-content {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .filters {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .filters select {
+    font-size: 12px;
+  }
+
+  table th, table td {
+    padding: 6px;
+  }
+
+  .edit-button, .delete-button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .total {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .income-expense {
+    margin-left: 0;
+    background-size: 80%;
+  }
+  
+  .income-expense-content {
+    max-width: 100%;
+    padding: 5px;
+  }
+
+  .filters select {
+    font-size: 10px;
+  }
+
+  table th, table td {
+    padding: 4px;
+  }
+
+  .edit-button, .delete-button {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+
+  .total {
+    font-size: 12px;
+  }
+}
+
+/* More specific adjustments for small screens */
+@media (max-width: 360px) {
+  .income-expense {
+    background-size: 100%;
+  }
+
+  .income-expense-content {
+    padding: 3px;
+  }
+
+  .filters select {
+    font-size: 8px;
+  }
+
+  table th, table td {
+    padding: 3px;
+  }
+
+  .edit-button, .delete-button {
+    padding: 3px 6px;
+    font-size: 8px;
+  }
+
+  .total {
+    font-size: 10px;
+  }
+}

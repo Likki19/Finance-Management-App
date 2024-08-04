@@ -1,0 +1,188 @@
+.edit-transaction-container {
+  display: flex;
+  height: calc(100vh - 60px); /* Adjust based on the height of your header */
+  width: 100%;
+
+  
+}
+
+.edit-transaction-content {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  margin-left: 200px; 
+height: 110%;
+
+
+ background-size:30%;
+  /* Ensure positioning is relative for the absolute image */
+ background-image: url('C:\Users\I7735\Desktop\Final\Personal-Finance-management\page\src\components\styles\rupee.jpg'); /* Path to your image */
+ background-position: right ; /* Position the image on the right */
+  /* Only 20% of the image is visible */
+ background-repeat: no-repeat;
+  
+  /* Adjust width based on the header width */
+}
+
+.edit-transaction-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 0 auto;
+  background: #dbdad7;
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 8%;
+  
+}
+
+.edit-transaction-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.edit-transaction-form input,
+.edit-transaction-form select {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.edit-transaction-form button {
+  padding: 10px;
+  background-color: #716d6d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-transaction-form button:hover {
+  background-color: #45a049;
+}
+
+.message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.success {
+  background-color: #dff0d8;
+  color: #3c763d;
+}
+
+.error {
+  background-color: #f2dede;
+  color: #a94442;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  font-weight: bold;
+  color: blue;
+}
+.add-edit-transaction-container {
+  display: flex;
+  height: calc(100vh - 60px); /* Adjust based on the height of your header */
+  width: 100%;
+  
+}
+
+.add-transaction-content {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  margin-left: 200px; 
+height: 110%;
+ background-size:30%;
+  /* Ensure positioning is relative for the absolute image */
+ background-image: url('C:\Users\I7735\Desktop\Final\Personal-Finance-management\page\src\components\styles\rupee.jpg'); /* Path to your image */
+ background-position: right ; /* Position the image on the right */
+ background-repeat: no-repeat;
+}
+
+.add-transaction-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #dbdad7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 8%;
+  border: 1px solid black;
+
+  
+}
+
+.add-transaction-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-transaction-form input,
+.add-transaction-form select {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-transaction-form button {
+  padding: 10px;
+  background-color: #716d6d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-transaction-form button:hover {
+  background-color: #45a049;
+}
+
+.message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.success {
+  background-color: #dff0d8;
+  color: #3c763d;
+}
+
+.error {
+  background-color: #f2dede;
+  color: #a94442;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: black;
+  text-decoration: none;
+  margin-left: 130px;
+}
+
+.back-link:hover {
+  font-weight: bold;
+  color: blue;
+}

@@ -1,0 +1,111 @@
+.login-container {
+  display: flex;
+  width:max-content;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+
+.login-card {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(C:\Users\I7735\Desktop\Final\Personal-Finance-management\page\src\components\styles\log.jpg) no-repeat center center;
+  background-size: contain; /* Adjust to fit the image without zooming */
+ 
+  overflow: hidden;
+}
+
+
+.login-form {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form h2 {
+  align-self:self-start;
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #a6a5a5;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  
+}
+
+label {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 500;
+}
+
+.form-control {
+  width: 70%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #f1eeee;
+  font-size: 18px;
+  transition: border-color 0.1s;
+ 
+}
+
+.form-control:focus {
+  outline: none;
+  border-bottom-color: #4a154b;
+}
+
+.submit-button {
+  width: 70%;
+  padding: 12px;
+  background-color: #4a154b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #3e1240;
+}
+
+.register-link, .login-link {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 130px;;
+  font-size: 14px;
+}
+
+.register-link a, .login-link a {
+  color: #4a154b;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.register-link a:hover, .login-link a:hover {
+  text-decoration: underline;
+}
